@@ -3,18 +3,17 @@
 
   <groupId>multi-test</groupId>
   <artifactId>root</artifactId>
-  <version>1</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>mapper-project-test</name>
 
   <scm>
    <developerConnection>scm:git:https://github.com/heatherhua/multi-module</developerConnection>
-    <tag>HEAD</tag>
   </scm>
   <parent>
     <groupId>multi-test</groupId>
     <artifactId>module-parent</artifactId>
-    <version>1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <relativePath>module-parent/pom.xml</relativePath>
   </parent>
 
@@ -38,9 +37,6 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
-        <configuration>
-          <tagBase>https://git:https://github.com/heatherhua/multi-module</tagBase>
-        </configuration>
       </plugin>
     </plugins>
   </build>
