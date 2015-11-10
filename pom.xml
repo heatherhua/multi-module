@@ -7,6 +7,9 @@
   <packaging>pom</packaging>
   <name>mapper-project-test</name>
 
+  <scm>
+   <developerConnection>scm:git:https://github.com/heatherhua/multi-module</developerConnection>
+  </scm>
   <parent>
     <groupId>multi-test</groupId>
     <artifactId>module-parent</artifactId>
